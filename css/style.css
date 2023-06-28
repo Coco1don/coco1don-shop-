@@ -1,0 +1,367 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+
+header{
+    background-image:linear-gradient(rgba(224, 220, 245, 0.7),rgba(15, 3, 43, 0.7)),url(../images/IMG-20230623-WA0061.jpg);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+   
+   
+}
+
+   
+
+   nav h1{
+    color: black;
+    padding:2% 8%;
+    font-size:3rem;
+  
+ }
+
+
+
+ .jak{
+    text-align: center;
+    padding:170px;
+
+   
+ }
+
+ .jak h2{
+    font-size:3rem;
+    font-style: italic;
+    position: absolute;
+    bottom:17rem;
+    left:15rem;
+    top:13rem;
+    
+ }
+
+
+
+ .jak p{
+    font-size:20px;
+  
+ }
+
+
+
+
+ .jak b{
+    margin:70px 0 auto;
+ }
+
+ .jak b a{
+    width:150px;
+    text-decoration:none;
+    display: inline-block;
+    margin:0 10px;
+    padding:12px 0;
+    color: #fff;
+ }
+
+
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:0px 12px;
+
+}
+
+
+
+
+nav ul{
+    list-style-type:none;
+    
+}
+
+
+
+
+nav ul li{
+    display: inline-block;
+    margin-right:110px;
+}
+
+
+
+
+nav ul li a{
+   text-decoration: none;
+   font-weight:700;
+   color:rgba(10, 1, 1, 0.822);
+   font-size:20px;
+}
+
+
+nav ul li :hover{
+   color: aquamarine;
+}
+
+
+ nav:hover{
+    background: #fff;
+    
+ }
+
+
+ .nav-b{
+    margin:70px 0 auto;
+ }
+
+
+
+ .nas-btn a{
+    width:150px;
+    text-decoration: none;
+    display:inline-block;
+    margin:0 10px;
+    padding:12px 0;
+    color: #fff;
+    border:1px solid rgb(8, 7, 10);
+    position: absolute;
+    bottom:2rem;
+    left:26rem;
+ }
+
+ .nas-btn a:hover {
+    background:black;
+    
+ }
+
+
+section{
+   padding: 50px 0;
+}
+
+
+
+.Features{
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.Features h1{
+   width:80%;
+   margin:15px auto;
+   text-align:center;
+   font-size:3rem;
+
+}
+
+.nas{
+    display: flex;
+    flex-flow:column wrap;
+    max-height:1800px;
+    margin:auto;
+    width:51%;
+    position: relative;
+    right:14rem;
+    
+    
+}
+
+.nas :hover{
+   transform: scale(1.07);
+}
+
+.nas-1{
+    width: 33.44%;
+    padding:12px;
+    box-sizing: border-box;
+    
+}
+
+.nas-1 img{
+    width:100%;
+    cursor:pointer;
+    
+}
+.nas-1 img :hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+.contact-wrapper{
+   display:flex;
+   align-items:center;
+   justify-content:space-between;
+   padding:2% 8%;
+}
+
+.contact-wrapper h2{
+   font-size:3rem;
+   position: relative;
+   left: 10em;
+   bottom:20rem;
+}
+
+.contact-info{
+   width:50%;
+   
+}
+
+
+.contact-info h1{
+   font-size:40px;
+   position: relative;
+   right:3em;
+}
+
+.contact-info p{
+   width:400px;
+   position: relative;
+   right:5em;
+}
+
+
+.contact-info input, textarea{
+   width:100%;
+   padding:20px;
+   margin:10px 0;
+   
+}
+
+
+
+footer{
+   background:#000;
+   height:260px;
+   padding:18px;
+   position: relative;
+   left:0;
+   right:0;
+   
+}
+
+
+
+footer p{
+   color:#fff;
+   font-size:20px;
+   text-align: center;
+
+   
+}
+
+.footer-1 h3{
+   color: #fff;
+   font-size:14px;
+   position: relative;
+   left:50px;
+   top:4rem;
+}
+
+
+.footer-1 p{
+   color: #fff;
+   padding-right:200rem;
+   font-size:12px;
+   position: relative;
+   left:70px;
+   top:4rem;
+}
+
+
+.footer-2 h4{
+   color: #fff;
+   font-size:15px;
+   position: relative;
+   left:29.4rem;
+    bottom:0.1rem;
+}
+
+
+.footer-2 p{
+   color: #fff;
+   font-size:12px;
+   position: relative;
+   left:22px;
+}
+ 
+.footer-3{
+   margin-bottom:20px;
+}
+
+
+
+.footer-3 h5{
+   color: #fff;
+   font-size:15px;
+   position: relative;
+   bottom:3rem;
+   left:51rem;
+   
+}
+
+.footer-3 p{
+   color: #fff;
+   font-size:12px;
+   position: relative;
+   bottom:3rem;
+   left:24rem;
+  
+}
+
+
+.footer-0 h6{
+   color: #fff;
+   position:relative;
+   top:6rem;
+   left:3rem;
+}
+
+.footer-0 p{
+   color: #fff;
+   font-size:12px;
+   position: relative;
+   bottom:-0.3rem;
+  right:20rem;
+   top:5.1rem;
+   
+}
+.create p{
+   font-size:60%;
+   position: relative;
+   top:5.50rem;
+   right:4rem;
+   left:2rem;
+   background-color:khaki;
+   color: #000;
+   width:60.90rem;
+  
+
+}
+
+
+ 
+@media screen and (max-width:770px) {
+   .jak h2,.nas-btn a{
+      flex-basis:100%;
+      font-size:14px;
+
+   }
+
+   .jak {
+      flex-basis:100%;
+      font-size:14px;
+   }
+
+   .footer-img{
+      top:25px;
+   }
+   
+}
